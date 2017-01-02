@@ -3,6 +3,8 @@ title: Arewa
 email: artist@gmail.com
 description: "Filmmaker // Actor // Singer"
 
+baseurl: /christina
+
 
 # Build settings
 markdown: kramdown
