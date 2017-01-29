@@ -50,6 +50,10 @@
 	<script type="text/javascript" src="{{site.baseurl}}/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 	
 	<script type="text/javascript" src="{{site.baseurl}}/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
+	
+	<!-- Used to make sure there is no conflict between 2 or more versions for jQuery -->
+	<script type="text/javascript">
+	var $= jQuery.noConflict();
+	</script>
 </body>
 </html>
